@@ -5,4 +5,11 @@
 
 chromedriverがインストールできない場合は別途インストールする
 
+## 実行
+
 `npm run test`
+
+## ヘッドレスモードで実行
+`wdio.conf.js`の以下のコメントアウトを外す
+
+`// args: ['--headless', '--disable-gpu'],`

@@ -54,13 +54,13 @@ exports.config = {
         //
         browserName: 'chrome',
         acceptInsecureCerts: true
-        'goog:chromeOptions': {
+        //'goog:chromeOptions': {
             // to run chrome headless the following flags are required
             // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
             // args: ['--headless', '--disable-gpu'],
             // to handle proxy auth by user data named 'user' (not work in headless mode)
             // args: ['--user-data-dir=user'],
-        }
+        //}
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs

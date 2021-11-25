@@ -7,10 +7,10 @@ exports.config = {
     {
       maxInstances: 1,
       browserName: "chrome",
-      acceptInsecureCerts: true
-      //   "goog:chromeOptions": {
-      // args: ["--headless", "--disable-gpu"]
-      //   }
+      acceptInsecureCerts: true,
+      // "goog:chromeOptions": {
+      //     args: ["--headless", "--disable-gpu"]
+      // }
     }
   ],
   logLevel: "error",

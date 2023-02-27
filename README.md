@@ -31,6 +31,8 @@ Uncomment the following in `wdio.conf.js`.
 
 `npm run report`
 
+Install Java if requested.
+
 This outputs test results using the [Allure Framework](http://allure.qatools.ru/).
 Test results are accumulated and displayed as graphs.
 In case of a test failure, a screenshot will be taken automatically.

@@ -4,10 +4,11 @@ LatteArtのテスト生成機能により自動生成されたテストスクリ
 
 # 準備
 
+- Node.js バージョン 14 をインストールする。
+    - LatteArtが出力するWDIOのSync modeのテストスクリプトはNodeのバージョン16以降に対応していません。
 - LatteArtのテスト生成機能により自動生成された `test.spec.js`、`page_objects`、`test_data` をルートディレクトリに格納する。
-- 以下のコマンドを実行する。
-
-`npm install`
+- `npm install` を実行する。
+    - 要求された場合、Pythonをインストールする。
 
 # テスト実行
 
@@ -26,6 +27,8 @@ LatteArtのテスト生成機能により自動生成されたテストスクリ
 # テストレポート表示
 
 `npm run report`
+
+要求された場合Javaをインストールする。
 
 [Allure Framework](http://allure.qatools.ru/) を用いてテスト結果を出力します。
 テスト実行結果は蓄積され、実績がグラフ化されます。

@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.spec.js",
   "scripts": {
-    "test": "./node_modules/.bin/wdio run ./wdio.conf.js",
+    "test": "wdio run ./wdio.conf.js",
     "report": "./node_modules/.bin/allure open"
   },
   "author": "",
@@ -20,10 +20,13 @@
     "@wdio/mocha-framework": "^7.7.4",
     "@wdio/spec-reporter": "^7.7.3",
     "chromedriver": "latest",
-    "wdio-chromedriver-service": "^7.3.2"
+    "wdio-chromedriver-service": "^7.3.2",
+    "selenium-webdriver": "4.10.0"
   },
   "dependencies": {
     "allure-commandline": "^2.13.8",
-    "fs-extra": "^10.0.0"
+    "fs-extra": "^10.0.0",
+    "log4js": "^6.9.1",
+    "multi-locator": "latteart-org/multi-locator"
   }
 }
